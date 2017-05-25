@@ -1,0 +1,48 @@
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+* {
+  font-family: 'MyWebFont', Arial, sans-serif;
+}
+.container {
+ margin: auto;
+}
+/*tr {
+  display: table-row;
+}*/
+table {
+  border: 1px solid #1d96b2;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  tr td:first-child {
+    font-weight: bold;
+  }
+   tr {
+  border-bottom: 1px solid #1d96b2;
+  border-spacing: 0;
+}
+
+  th {
+    background-color: #1d96b2;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;;
+  }
+  tr:nth-child(odd) {
+    background-color: #efefee;
+  }
+  td {
+    padding: 15px;
+  }
+  td:nth-child(n+1) {
+    color: #5e5d62;
+  }
